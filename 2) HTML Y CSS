@@ -1,4 +1,5 @@
-  ESTRUCTURA MÍNIMA DE UNA WEB
+ ```
+ ESTRUCTURA MÍNIMA DE UNA WEB
   
   ```
   <!DOCTYPE html>
@@ -263,7 +264,7 @@ DI A QUIEN AFECTAN
     Afecta a todos los elementos de "class" que contengan tambien el atributo "=externo".
   a[href="http://www.ejemplo.com"] { color: blue; }:
     Afecta al elemento "a" que enlaza a una página web externa.
-    
+´´´
 
 
 
