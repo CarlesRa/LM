@@ -1075,6 +1075,7 @@ translate(0px,0px) scale(1);
 
 
 ## 12)CLEARING
+```
 <!DOCTYPE HTML>
 <html>
 <head>
