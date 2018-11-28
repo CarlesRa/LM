@@ -1,7 +1,7 @@
-## CODIGO DE EJERCICIOS DE CLASE:
+# CODIGO DE EJERCICIOS DE CLASE:
 
 
-1)
+## 1)
 ```html
 <!DOCTYPE html>
 <html>
@@ -101,11 +101,11 @@
 
   </body>
 </html>
-´´´
-
 ```
 
-2)
+
+## 2)
+```
 <!DOCTYPE html>
 <html>
 	<head>
@@ -196,11 +196,12 @@
 		</section>
     </body>
   </html>
-  ´´´
-  
   ```
   
-  3)
+  
+  
+  ## 3)
+  ```
   <!DOCTYPE html>
 <html>
 <head>
@@ -261,11 +262,10 @@
 	</div>
 </body>
 </html>
-´´´
-
 ```
 
-4)
+## 4)
+```
 <!DOCTYPE html>
 <html>
     <meta charset="utf-8">
@@ -298,11 +298,12 @@
 <p>Hola</p>
 </body>
 </html>
-´´´
-
 ```
 
-5)
+
+
+## 5)
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -336,11 +337,9 @@
 
 </body>
 </html>
-´´´
-
 ```
-
-6)
+## 6)
+```
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
@@ -411,11 +410,10 @@
 	
 </body>
 </html>
-´´´
-
 ```
 
-7)
+## 7)
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -445,11 +443,10 @@
 
 </body>
 </html>
-´´´
-
 ```
 
-8)
+## 8)
+```
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
@@ -624,11 +621,10 @@
    </div>
 </body>
 </html>
-´´´
-
 ```
 
-9)
+## 9)
+```
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
@@ -811,10 +807,8 @@
    </div>
 </body>
 </html>
-´´´
-
 ```
-10)
+ ## 10)
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
@@ -1000,11 +994,12 @@
    </div>
 </body>
 </html>
-´´´
-
 ```
 
-11)CLEAR FIX.
+
+
+## 11)CLEAR FIX.
+```
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -1074,10 +1069,10 @@ translate(0px,0px) scale(1);
 </section>
 </body>
 </html>
-´´´
-
 ```
-CLEARING
+
+
+## 12)CLEARING
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -1152,11 +1147,10 @@ div {
 <div class="element6">six</div>
 </body>
 </html>
-´´´
-
 ```
 
-FLOAT
+## 13)FLOAT
+```
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -1215,7 +1209,7 @@ div {
 <div class="element3"></div>
 </body>
 </html>
-´´´
+```
 
 ```
 
@@ -1277,7 +1271,7 @@ div {
 <div class="element3"></div>
 </body>
 </html>
-´´´
+```
 
 ```
 
@@ -1358,7 +1352,7 @@ This is where the related content goes.
 <footer>Copyright stuff....</footer>
 </body>
 </html>
-´´´
+```
 
 ```
 
@@ -1438,11 +1432,11 @@ This is where the related content goes.
 <footer>Copyright stuff....</footer>
 </body>
 </html>
-´´´
+```
 
 ```
 
-COLUMN
+## 14)COLUMN
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -1530,7 +1524,7 @@ This is where the related content goes.
 <footer>Copyright stuff....</footer>
 </body>
 </html>
-´´´
+```
 
 ```
 
@@ -1619,7 +1613,7 @@ I have to be the middle column.
 <footer>Copyright stuff....</footer>
 </body>
 </html>
-´´´
+```
 
 ```
 
@@ -1715,4 +1709,4 @@ I am related content.
 <footer>Copyright stuff....</footer>
 </body>
 </html>
-´´´
+```
