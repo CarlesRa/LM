@@ -4,6 +4,8 @@
 
 
 ## 1)
+
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -106,7 +108,7 @@
 
 
 ## 2)
-```
+```html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -202,7 +204,7 @@
   
   
   ## 3)
-  ```
+  ```html
   <!DOCTYPE html>
 <html>
 <head>
@@ -266,7 +268,7 @@
 ```
 
 ## 4)
-```
+```html
 <!DOCTYPE html>
 <html>
     <meta charset="utf-8">
@@ -304,7 +306,7 @@
 
 
 ## 5)
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -340,7 +342,7 @@
 </html>
 ```
 ## 6)
-```
+```html
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
@@ -414,7 +416,7 @@
 ```
 
 ## 7)
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -447,7 +449,7 @@
 ```
 
 ## 8)
-```
+```html
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
@@ -625,7 +627,7 @@
 ```
 
 ## 9)
-```
+```html
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
@@ -810,7 +812,7 @@
 </html>
 ```
  ## 10) PRÁCTICA LAYOUT
- ```
+ ```html
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
@@ -1001,7 +1003,7 @@
 
 
 ## 11)CLEAR FIX.
-```
+```html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -1075,7 +1077,7 @@ translate(0px,0px) scale(1);
 
 
 ## 12)CLEARING
-```
+```html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -1153,7 +1155,7 @@ div {
 ```
 
 ## 13)FLOAT
-```
+```html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -1214,7 +1216,7 @@ div {
 </html>
 ```
 
-```
+```html
 
 <!DOCTYPE HTML>
 <html>
@@ -1276,7 +1278,7 @@ div {
 </html>
 ```
 
-```
+```html
 
 <!DOCTYPE HTML>
 <html>
@@ -1357,7 +1359,7 @@ This is where the related content goes.
 </html>
 ```
 
-```
+```html
 
 <!DOCTYPE HTML>
 <html>
@@ -1437,9 +1439,9 @@ This is where the related content goes.
 </html>
 ```
 
-```
-
 ## 14)COLUMN
+
+```html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -1529,7 +1531,7 @@ This is where the related content goes.
 </html>
 ```
 
-```
+```html
 
 <!DOCTYPE HTML>
 <html>
@@ -1618,7 +1620,7 @@ I have to be the middle column.
 </html>
 ```
 
-```
+```html
 
 <!DOCTYPE HTML>
 <html>
@@ -1709,11 +1711,11 @@ This is equally important stuff.
 <aside>
 I am related content.
 </aside>
-
+```
 
  ## ESTRUCTURA MÍNIMA DE UNA WEB
   
-  ```
+  ```html
   <!DOCTYPE html>
 <html>
 <head>
@@ -1727,43 +1729,48 @@ I am related content.
 
 ## FORMAS DE USAR CSS
  ## CSS externo:
-    Las modificaciones de estilo se guardan en un archivo diferente, se debe invocar al principio del documento HTML en el,
+  Las modificaciones de estilo se guardan en un archivo diferente, se debe invocar al principio del documento HTML en el,
   bloque <head> así conseguimos que la carga de estilos se realice al principio, evitando la sensación que la página no se
   carga al momento.
   ej.
-  ```
+  
+  ```html
   
   <link rel="stylesheet" type="text/css" href="index.css" />
   ```
  ## CSS interno:
-    Se añade directamente a la cabecera HTML del documento, se puede utilizar pero es recomendable la forma anterior, ya que
+  Se añade directamente a la cabecera HTML del documento, se puede utilizar pero es recomendable la forma anterior, ya que
   evita la sensación de carga lenta.
   ej.
-  ```
+ 
+```html
   
-  <!DOCTYPE html>
-<html>
-<head>
-    <title>Título de la página</title>
-    <style type="text/css">
-        div {
-            background:#FFFFFF;
-        }
-    </style>
-</head>
-...
-  ```
+	  <!DOCTYPE html>
+	<html>
+	<head>
+	    <title>Título de la página</title>
+	    <style type="text/css">
+		div {
+		    background:#FFFFFF;
+		}
+	    </style>
+	</head>
+```
+
 
 ## CSS embebido:
-    Se aplica directamente en el arxivo HTML, pero en la etiqueta que nos interese, pasa como en la forma anterior, se debe 
+    
+    
+  Se aplica directamente en el arxivo HTML, pero en la etiqueta que nos interese, pasa como en la forma anterior, se debe 
   se debe utilizar solo en casos excepcionales, siendo recomendable el externo.
    ej.
-  ```
+  
+  ```html
   <p>¡Hola <span style="color:#FF0000">amigo lector</span>!</p>
   ```
  ## CREAR UNA LISTA SIN ORDENAR CON 5 INGREDIENTES DE UNA RECETA DE COCINA.
   ej.
-  ```
+  ```html
   
   <!DOCTYPE html>
 <html>
@@ -1800,15 +1807,15 @@ I am related content.
 
 ## COMO INCLUIR JAVASCRIPT EN HTML
   Se puede incluir de tres formas diferentes:
-  JavaScript interno:
-      se encierra entre etiquetas <script>, se puede incluir en cualquier zona de la página, aunque es recomendable 
+  #JavaScript interno:
+    Se encierra entre etiquetas <script>, se puede incluir en cualquier zona de la página, aunque es recomendable 
     definirlo dentro de la cabecera del documento. Para que el documento sea valido, se debe incluir el atributo "type"
     el principal inconveniente es, que si se quiere hacer una modificación en el bloque de código es necesario modificar
     todas las páginas.
     ej.
  
     
- ```   
+ ``` html  
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1824,19 +1831,19 @@ I am related content.
 <p>Un párrafo de texto.</p>
 </body>
 </html>
+```
 
-  ```
-
-  ## JavaScript externo:
-      
-      Las instrucciones se guardan en un documento externo, enlazandola mediante la etiqueta <script>, se pueden crear
-    tantos como sean necesarios y se pueden enlazar tantos como se deseen. Ademas de <type>, tambien es necesario 
-    definir el atributo "src", correspondiente al arxivo JavaScript que se quiere enlazar.
-    La principal ventaja es, que se consigu una codigo HTML mas limpio, y que cualquier modificacion del JavaEscript, 
-    se efectuara en todas las paginas enlazadas.
-    ej.
+  ## JavaScript externo:      
+   
+   
+   Las instrucciones se guardan en un documento externo, enlazandola mediante la etiqueta <script>, se pueden crear
+   tantos como sean necesarios y se pueden enlazar tantos como se deseen. Ademas de <type>, tambien es necesario 
+   definir el atributo "src", correspondiente al arxivo JavaScript que se quiere enlazar.
+   La principal ventaja es, que se consigu una codigo HTML mas limpio, y que cualquier modificacion del JavaEscript, 
+   se efectuara en todas las paginas enlazadas.
+   ej.
     
- ```
+ ```html
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1855,10 +1862,10 @@ I am related content.
 
  ## JavaScript en los elementos XHTML:
     
-    Poco recomendable, ya que ensucia el código HTML, se utiliza en casos muy aislados.
+  Poco recomendable, ya que ensucia el código HTML, se utiliza en casos muy aislados.
   ej.
   
-```
+```html
   
   
 
@@ -1879,19 +1886,19 @@ I am related content.
 ## DIFERENCIA ENTRE CLASE E ID
   ### ID:
     
-    El selector ID, hace referencia a un solo elemento (identdad), tiene mas peso que el selector CLASS, lo que quiere 
-    decir que una modificación en ID modificara la modificación hecha con CLASS.
-    ej.
+   El selector ID, hace referencia a un solo elemento (identdad), tiene mas peso que el selector CLASS, lo que quiere 
+   decir que una modificación en ID modificara la modificación hecha con CLASS.
+   ej.
 
 ### HTML
 
-```
+```html
 <div id="unico">Charmander</div>
 
   ```
 ### CSS
 
-```
+```html
 #unico {
   background: orange;
   margin: 1rem;
@@ -1903,20 +1910,20 @@ I am related content.
 
  ### CLASS:
     
-    El selector CLASS, hace referencia a varios elementos, se pueden incluir los que se quieran, y modificara los atributos
-    de todos los elementos que esten dentro del CLASS. En el caso de ID, tambien se puede enlazer varios elementos, pero por
-    definición se utiliza en un solo elemento.
-    ej.
+   El selector CLASS, hace referencia a varios elementos, se pueden incluir los que se quieran, y modificara los atributos
+   de todos los elementos que esten dentro del CLASS. En el caso de ID, tambien se puede enlazer varios elementos, pero por
+   definición se utiliza en un solo elemento.
+   ej.
 
 ### HTML
 
-```
+```html
 <div class="pokemon">Squirtle</div>
   
 ```
 ### CSS
 
-```
+```html
 .pokemon {
   background: #02B1FC;
   margin: 1rem;
@@ -1930,21 +1937,21 @@ I am related content.
 
 ### CODIGO PARA ENLAZAR A OTRA PÁGINA Y QUE SE ABRA EN OTRA VENTANA
 
-```
+```html
  <a href="pagina.html" target="_blank">Título del enlace</a>.
    
 ```
 
 ## QUE SON LAS PSEUDOCLASES?
     
-    Es una palabra clave que se añade a los selectores, y que especifica un estado especial del elemento seleccionado.
+   Es una palabra clave que se añade a los selectores, y que especifica un estado especial del elemento seleccionado.
   Permiten aplicar un estilo a un elemento, no solo en relación con el contenido del arbol, sino tambien en relación a 
   factores externos como el historial de navegación (:visited), el estado de su contenido (:chacked) o la posición del
   ratón (:hover), que permite saber si el raton esta o no encima de un elemento. En resumen, el estilo se aplica solo 
   cuando se realiza la acción marcada por la pseudoclase.
   ej.
 
-```
+```html
 div:hover {
   background-color: #F89B4D;
 }
@@ -1955,7 +1962,7 @@ div:hover {
 
   El modelo de cajas es el comportamiento de CSS que hace que todos los elementos de las páginas se representen mediante 
 cajas rectangulares. Las cajas se crean automaticamente al definir cada elemento HTML.
-  Padding: 
+ Padding: 
     Espacio libre opcional existente entre el contenido y el borde.
  Border:
     línea que encierra completamente el contenido y su relleno.
@@ -1969,7 +1976,7 @@ cajas rectangulares. Las cajas se crean automaticamente al definir cada elemento
   para cada uno de ellos.
   ejs.
   
-```
+```html
   /* Todos los elementos <a> */
 a {
   color: red;
@@ -1977,14 +1984,14 @@ a {
   
 ```
 
-```
+```html
 span {
   background-color: skyblue;
 }
 
 ```
 
-```
+```html
 
 <span>Aquí hay un elemento 'span' con algo de texto.</span>
 <p>Aquí hay un elemento 'p' con algo de texto.</p>
@@ -1993,7 +2000,7 @@ span {
 ```
 ## DI A QUIEN AFECTAN
 
-```
+```html
   p a { color: red;:
     Afecta a todos los elementos "a" que esten dentro de "p".
   p > a { color: red; }:
