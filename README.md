@@ -811,6 +811,7 @@
 </html>
 ```
  ## 10) PRÁCTICA LAYOUT
+ ```
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
