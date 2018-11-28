@@ -1806,9 +1806,9 @@ I am related content.
     el principal inconveniente es, que si se quiere hacer una modificación en el bloque de código es necesario modificar
     todas las páginas.
     ej.
-    ```
+ 
     
-    
+ ```   
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1828,13 +1828,15 @@ I am related content.
   ```
 
   ## JavaScript externo:
+      
       Las instrucciones se guardan en un documento externo, enlazandola mediante la etiqueta <script>, se pueden crear
     tantos como sean necesarios y se pueden enlazar tantos como se deseen. Ademas de <type>, tambien es necesario 
     definir el atributo "src", correspondiente al arxivo JavaScript que se quiere enlazar.
     La principal ventaja es, que se consigu una codigo HTML mas limpio, y que cualquier modificacion del JavaEscript, 
     se efectuara en todas las paginas enlazadas.
     ej.
-    ```
+    
+ ```
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1849,12 +1851,14 @@ I am related content.
 </body>
 </html>
 
-  ```
+```
 
  ## JavaScript en los elementos XHTML:
+    
     Poco recomendable, ya que ensucia el código HTML, se utiliza en casos muy aislados.
   ej.
-  ```
+  
+```
   
   
 
@@ -1869,18 +1873,24 @@ I am related content.
 <p onclick="alert('Un mensaje de prueba')">Un párrafo de texto.</p>
 </body>
 </html>
-  ```
+  
+```
+
 ## DIFERENCIA ENTRE CLASE E ID
   ### ID:
+    
     El selector ID, hace referencia a un solo elemento (identdad), tiene mas peso que el selector CLASS, lo que quiere 
     decir que una modificación en ID modificara la modificación hecha con CLASS.
     ej.
+
 ### HTML
+
 ```
 <div id="unico">Charmander</div>
 
   ```
 ### CSS
+
 ```
 #unico {
   background: orange;
@@ -1892,15 +1902,20 @@ I am related content.
   ```
 
  ### CLASS:
+    
     El selector CLASS, hace referencia a varios elementos, se pueden incluir los que se quieran, y modificara los atributos
     de todos los elementos que esten dentro del CLASS. En el caso de ID, tambien se puede enlazer varios elementos, pero por
     definición se utiliza en un solo elemento.
     ej.
+
 ### HTML
+
 ```
 <div class="pokemon">Squirtle</div>
-  ```
+  
+```
 ### CSS
+
 ```
 .pokemon {
   background: #02B1FC;
@@ -1910,24 +1925,31 @@ I am related content.
   color: white;
   font-size: 2rem;
 }
-  ```
+
+```
 
 ### CODIGO PARA ENLAZAR A OTRA PÁGINA Y QUE SE ABRA EN OTRA VENTANA
+
 ```
  <a href="pagina.html" target="_blank">Título del enlace</a>.
-   ```
+   
+```
+
 ## QUE SON LAS PSEUDOCLASES?
+    
     Es una palabra clave que se añade a los selectores, y que especifica un estado especial del elemento seleccionado.
   Permiten aplicar un estilo a un elemento, no solo en relación con el contenido del arbol, sino tambien en relación a 
   factores externos como el historial de navegación (:visited), el estado de su contenido (:chacked) o la posición del
   ratón (:hover), que permite saber si el raton esta o no encima de un elemento. En resumen, el estilo se aplica solo 
   cuando se realiza la acción marcada por la pseudoclase.
   ej.
+
 ```
 div:hover {
   background-color: #F89B4D;
 }
-  ```
+  
+```
 
 ## EXPLICA EL MODELO DE CAJA DE CSS (MARGIN, PADDING, BORDER)
 
@@ -1941,28 +1963,36 @@ cajas rectangulares. Las cajas se crean automaticamente al definir cada elemento
     separación opcional existente entre la caja y el resto de cajas adyacentes.
     
 ## EXPLICA QUE SON LOS SELECTORES DE CSS Y PON EJEMPLOS
+  
   Permiten hacer cambios de estilo solo a los elementos seleccionados por el selector, modificandolos de forma aislada del
   resto de elementos. Es una función muy utilizada, que permite diferenciar los distintos elementos con un estilo propio 
   para cada uno de ellos.
   ejs.
-  ```
+  
+```
   /* Todos los elementos <a> */
 a {
   color: red;
 }
-  ```
+  
+```
 
 ```
 span {
   background-color: skyblue;
 }
-  ```
+
 ```
+
+```
+
 <span>Aquí hay un elemento 'span' con algo de texto.</span>
 <p>Aquí hay un elemento 'p' con algo de texto.</p>
 <span>Aquí hay un elemento 'span' con más texto.</span>
-  ```
+  
+```
 ## DI A QUIEN AFECTAN
+
 ```
   p a { color: red;:
     Afecta a todos los elementos "a" que esten dentro de "p".
@@ -1976,5 +2006,6 @@ span {
     Afecta a todos los elementos de "class" que contengan tambien el atributo "=externo".
   a[href="http://www.ejemplo.com"] { color: blue; }:
     Afecta al elemento "a" que enlaza a una página web externa.
-  ```
+  
+```
 
