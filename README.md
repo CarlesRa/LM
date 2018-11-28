@@ -52,7 +52,6 @@
       
   </head>
   <body>
-    <img <img src="http://tecnologiaenvivo.com/wp-content/uploads/2014/09/MacAppleMacbookAwesomeHDWallpaper-FreeHDWall.Blogspot.Com_-1024x640.jpg">
     <br> <center>
     <div>TECLEANDO PODCAST</div>
     <h2>Programación (CFGS DAM)</h2>
