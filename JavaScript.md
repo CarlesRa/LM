@@ -10,6 +10,6 @@ Electron no emplea librerías gráficas del sistema operativo, ya que su GUI (in
 
 ```
 ### Enlaces:
- ![Pagina consultadas](http://alastresenpunto.com/electron-desarrollo-aplicaciones/)
+ [Pagina consultadas](http://alastresenpunto.com/electron-desarrollo-aplicaciones/)
  
 
