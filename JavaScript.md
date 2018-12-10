@@ -9,9 +9,7 @@ Electron utiliza páginas web como interfaz gráfica de usuario.
 Electron no emplea librerías gráficas del sistema operativo, ya que su GUI (interfaz gráfica de usuario) se maqueta mediante HTML.
 
 ```
-###Enlaces:
-```
-
- ![](http://alastresenpunto.com/electron-desarrollo-aplicaciones/)
+### Enlaces:
+ ![Pagina consultadas](http://alastresenpunto.com/electron-desarrollo-aplicaciones/)
  
- ```
+
