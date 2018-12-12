@@ -26,4 +26,6 @@ Electron no emplea librerías gráficas del sistema operativo, ya que su GUI (in
   Disposición de los elementos: se refiere al orden en que se muestran los elementos en la página en función de como aparecen en el código HTML. Por defecto, los elementos se mostrarán de arriba a abajo y de izquierda a derecha.
    
  ```
+ 
+ ### Enlaces
 [enlace1](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Usando_las_cajas_flexibles_CSS)
