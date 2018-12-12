@@ -27,5 +27,5 @@ Electron no emplea librerías gráficas del sistema operativo, ya que su GUI (in
    
  ```
  
- ### Enlaces
+ ### Enlaces:
 [enlace1](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Usando_las_cajas_flexibles_CSS)
