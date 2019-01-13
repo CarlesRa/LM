@@ -1,4 +1,4 @@
-```json
+
 const {app, BrowserWindow} = require('electron')
 require('electron-reload')(__dirname);
  
@@ -26,7 +26,7 @@ app.on('activate', function () {
   }
 })
 
-```
+
 Instalar Electron y crear Hola Mundo
 Windows
 
