@@ -1,7 +1,5 @@
 .container{
-	background-color: grey;
 	margin: 0 auto;
-
 	height: 600px;
 	width: 900px;
 }
@@ -29,6 +27,7 @@
 .container2{
 	display: flex;
 	justify-content: space-between;
+	flex-flow: row;
 	
 }
 .left{
@@ -39,11 +38,13 @@
 }
 .center{
 	color:black;
-	width: 600px;
-	height: 560px;
-	border-left: 1px solid blue;
-	border-right: : 1px solid blue;
-	border-bottom: 1px solid blue;
+	padding: 20px;
+	width: 400px;
+	height: 490px;
+	border-right: 1px solid lightgrey ;
+	border-left: 1px solid lightgrey;
+
+
 }
 .right{
 	color:black;
@@ -55,7 +56,6 @@
 	background-color: #9DD0E5;
 	height: 10px;
 	padding: 10px;
-	margin-top: 130px;
 	text-align: center;
 	color: white;
 }
