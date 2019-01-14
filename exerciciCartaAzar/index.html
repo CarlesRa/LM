@@ -10,14 +10,15 @@
 </head>
 <body>
     <input type="button" id="botonAzar"value="Numero al azar">
-    <input type="text " value="numero">
+    <input type="text " id="resultado" value="">
 
     <script type="text/javascript">
         console.log("Funciona");
-        document.getElementById("botonAzar").addEventListener("click",generaAzar;
+        document.getElementById("botonAzar").addEventListener("click",generaAzar)
 
-        function geraAzar(){
+        function generaAzar(){
             console.log("Estoy ready papi");
+            document.getElementById("resultado").value=Math.round(Math.random()*(99-1+1)+1);
         }
     </script>
 </body>
