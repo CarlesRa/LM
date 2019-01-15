@@ -11,24 +11,26 @@
 <body>
     <input type="button" id="botonAzar"value="Numero al azar">
     <input type="text " id="resultado" value=""><br><br><br>
-    <input type="button" id="verImagen"value="Ver imagen" onclick="javaScript:verImagen('cratos')">
-    <input type="image" id="imagen" src="">
+    
+    <div id="oculto" style="display:none" >
+    hola que pasa.
+    </div>
     
     <script type="text/javascript">
         console.log("Funciona");
-        document.getElementById("botonAzar").addEventListener("click",generaAzar)
-        document.getElementById("verImagen").addEventListener("click",verImagen)
+        document.getElementById("botonAzar").addEventListener("click",generaAzar);
+        document.getElementById("oculto").addEventListener("click",mostrar);
 
         function generaAzar(){
             console.log("Estoy ready papi");
             document.getElementById("resultado").value=Math.round(Math.random()*(99-1+1)+1);
         }
 
-        function verImagen(){
+        function mostrar(){
             console.log("funciona imagen");
-            img=document.getElementById();
-            img.innerHTML=<img id="cratos"src="https://k60.kn3.net/taringa/D/B/B/9/7/C/Kalmas77/8CA.jpg"/>
+            document.getElementById(oculto).style.display='block';
         }
     </script>
+    <input type="button"value="Ver" onclick="mostrar()">
 </body>
 </html>
