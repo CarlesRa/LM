@@ -1,4 +1,12 @@
-#imagen{
+#boton{
+    display:flex;
+    margin-top: 40px;
+}
+#ocultar{
     height: 100px;
     width: 150px;
+    margin-left: 150px;
+    display: flex;
 }
+
+

@@ -11,26 +11,40 @@
 <body>
     <input type="button" id="botonAzar"value="Numero al azar">
     <input type="text " id="resultado" value=""><br><br><br>
-    
-    <div id="oculto" style="display:none" >
-    hola que pasa.
-    </div>
-    
+    <input onclick="return mostrarNoMostrar('ocultar')" id="boton" 
+    type="button" value="Mostrar/Ocultar">
+    <input type="image"id="ocultar" src="https://k61.kn3.net/taringa/C/0/2/5/2/2/Kalmas77/9CD.png">
     <script type="text/javascript">
         console.log("Funciona");
         document.getElementById("botonAzar").addEventListener("click",generaAzar);
-        document.getElementById("oculto").addEventListener("click",mostrar);
+        document.getElementById("mostrar").addEventListener("click",mostrar);
 
         function generaAzar(){
             console.log("Estoy ready papi");
             document.getElementById("resultado").value=Math.round(Math.random()*(99-1+1)+1);
         }
-
-        function mostrar(){
-            console.log("funciona imagen");
-            document.getElementById(oculto).style.display='block';
+        function mostrarNoMostrar(ocultar){
+            var imagen=document.getElementById(ocultar);
+            var boton=document.getElementById(boton);
+            if(imagen.style.display=="none"){
+                imagen.style.display="block";
+            }
+            else{
+                imagen.style.display="none";      
+            }
+            return imagen.style.display
         }
+       /* function textoBoton(boton){
+            var texto=document.getElementById(boton);
+            if(imagen.style.display=="none"){
+                texto.innerText="Quitar imagen";
+            }
+            else{
+                texto.innerText="Ver imagen";
+            }
+            return texto.innerHTML;
+        }*/
     </script>
-    <input type="button"value="Ver" onclick="mostrar()">
+    
 </body>
 </html>
