@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    peso
+    <input type="number" id="peso">cm
+    altura
+    <input type="number" id="altura">cm<br><br>
+    <input type="button" id='boton' value="Calcular">
+    <input type="text" id="resultado" >
+
+
+    <script>
+        console.log("funciona");
+        //listeners
+        document.getElementById("boton").addEventListener("click",calcularImm);
+        //funcion que calcula 
+        function calcularImm(){
+            var peso=document.getElementById("peso").value;
+            var altura=document.getElementById("altura").value;
+            document.getElementById('resultado').value=peso/(altura*altura);
+        }
+    </script>  
+</body>
+</html>
