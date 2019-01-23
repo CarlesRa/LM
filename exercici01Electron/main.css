@@ -17,30 +17,33 @@
 	text-align: left;
 }
 .textLeft{
-	height: 295px;
+	height: 350px;
 	width: 230px;
 	background-color: white;
 	padding: 20px;
-	border-radius: 10px;
+	border-radius: 5px;
+	margin-top: 40px;
 }
 .textCenter{
-	height: 295px;
+	height: 350px;
 	width: 230px;
 	background-color: white;
 	padding: 20px;
-	border-radius: 10px;
+	border-radius: 5px;
+	margin-top: 40px;
 }
 .textRight{
-	height: 295px;
+	height: 350px;
 	width: 230px;
 	background-color: white;
 	padding: 20px;
-	border-radius: 10px;
+	border-radius: 5px;
+	margin-top: 40px;
 }
 .boton{
 	text-align: center;
 	margin-top: 40px;
-	margin-left: 400px;
+	margin-left: 380px;
 	display: inline-block;
 	border: 1px solid white; 
 	padding: 10px; 
@@ -50,7 +53,8 @@
 	font-family: 'Helvetica', sans-serif; 
 	border-radius:  5px; 
 	color: black;
-	font-weight: bold;;
+	font-weight: bold;
+	padding: 10px;
 }
 .footer{
 	color: white;
