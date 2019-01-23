@@ -1,7 +1,5 @@
 .container{
-	background-color: grey;
 	margin: 0 auto;
-
 	height: 600px;
 	width: 900px;
 }
@@ -23,7 +21,7 @@
 	height: 20px;
 	width: 300px;
 	margin-top: -14px;
-	margin-left: 615px;
+	margin-left: 600px;
 	font-size: 12px;
 }
 .container2{
@@ -32,30 +30,34 @@
 	
 }
 .left{
-	width: 120px;
+	width: 180px;
 	margin-top: 20px;
 	color:black;
 	padding: 20px;
+	height: 400px;
+}
+#texto{
+	font-size: 11px;
 }
 .center{
 	color:black;
-	width: 600px;
-	height: 560px;
-	border-left: 1px solid blue;
-	border-right:  1px solid blue;
-	border-bottom: 1px solid blue;
+	width: 700px;
+	height:420px;
+	border-left: 1px solid gray;
+	border-right:  1px solid gray;
+	padding: 20px;
 }
 .right{
 	color:black;
-	width: 120px;
+	width: 180px;
 	margin-top: 20px;
 	padding: 20px;
+	height: 400px;
 }
 .footer{
 	background-color: #9DD0E5;
-	height: 10px;
+
 	padding: 10px;
-	margin-top: 130px;
 	text-align: center;
 	color: white;
 }
