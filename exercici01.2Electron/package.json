@@ -9,6 +9,7 @@
   "author": "Carles Ramos",
   "license": "ISC",
   "dependencies": {
-    "electron": "^4.0.1"
+    "electron": "^4.0.1",
+    "electron-reload": "^1.4.0"
   }
 }

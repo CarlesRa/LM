@@ -1,4 +1,44 @@
 .header{
-    font-size: 210px;
+    font-size: 100px;
     text-align: center;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.equipoL{
+    border: solid orangered;
+    width: 180px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.equipoR{
+    border: solid orangered;
+    width: 180px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.texto{
+    text-align: right;
+}
+.boton{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    border: 3px solid orangered;
+    border-radius: 20px;
+    margin-left: 632px;
+    margin-top: 20px;
+}
+.resultado{
+    display: inline-block;
+    justify-content: center;
+    border: 3px solid orangered;
+    margin-top: 60px;
+    margin-left: 412px;
+    padding: 20px;
+    width: 475px;
+
 }
