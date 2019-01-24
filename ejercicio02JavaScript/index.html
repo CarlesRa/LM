@@ -10,51 +10,80 @@
 </head >
 <body>
     <div class="container">
-            <div class="header">
-                    Liga <img src="/home/jcrm/Documentos/DAM/SSII/ACB.png">
+            <div id="header">
+                <div id="cajaLogo">
+                    <img id="logoL" src="/home/jcrm/Documentos/DAM/Lenguajes marcas gestión info/imagenes/acb.jpg" alt="logoL">
+                </div>
+                Liga <img id="logoLiga"src="/home/jcrm/Documentos/DAM/Lenguajes marcas gestión info/imagenes/ACB.png"><br>
+                <div id="logosEquipos">
+                    <div id="cajaValencia">
+                        <img id="logoValencia" src="/home/jcrm/Documentos/DAM/Lenguajes marcas gestión info/imagenes/ValenciaBasquet.jpg" alt="">
+                    </div>
+                    <div id="cajaMadrid">
+                        <img id="logoMadrid" src="/home/jcrm/Documentos/DAM/Lenguajes marcas gestión info/imagenes/madridBasquet.png" alt="">
+                    </div>
+                </div>
             </div>
             <div class="container2">
-                <div>
-
-                </div>
-                <div class="equipoL">
+                <div id="equipoL">
                     soy el quipo izquierdo
                      <br><br><br>
-                    <input class="texto" type="text" value="102" >
+                    <input id="texto" type="text" value="200" >
                     <br><br><br>
-                    <input class="texto" type="text" value="98">
+                    <input id="texto1" type="text" value="98">
                     <br><br><br>
-                    <input class="texto" type="text" value="89">
+                    <input id="texto2" type="text" value="89">
                 </div>
-                <div class="equipoR">
+                <div id="equipoR">
                     soy el equipo derecho 
                     <br><br><br>
-                    <input class="texto" type="text" value="105" >
+                    <input id="texto3" type="text" value="105" >
                     <br><br><br>
-                    <input class="texto" type="text" value="100">
+                    <input id="texto4" type="text" value="100">
                     <br><br><br>
-                    <input class="texto" type="text" value="90">
+                    <input id="texto5" type="text" value="90">
                 </div>
                 <div>
 
                 </div>
             </div>
-            <div class="boton">
-                Calcular
+            <div id="boton">
+                <a id="textoBoton">
+                    Calcular
+                </a>
+                
             </div>
             <div>
 
             </div>
-            <div class="resultado">
-                    Media
-                <input type="text" class="media">
+            <div id="resultado">
+                Media
+                <input type="text" id="media">
                 Ganador
-                <input type="text" class="Ganador">
+                <input type="text" id="Ganador">
             </div>
 
     </div>
     <script>
+        console.log("hola");
+        /*listeners*/
+        document.getElementById("boton").addEventListener("click",calcularGanador)
+        /*functions*/
 
+        function calcularGanador(){
+            console.log("funcion correcta")
+            var puntos1L = document.getElementById("texto");
+            var puntos2L = document.getElementById("texto1");
+            var puntos3L = document.getElementById("texto2");
+            var puntos1R = document.getElementById("texto3");
+            var puntos2R = document.getElementById("texto4");
+            var puntos3R = document.getElementById("texto5");
+            var resultado1 = (puntos1L+puntos2L+puntos3L)/3;
+            var resultado2 = (puntos1R+puntos2R+puntos3R)/3;
+            if (resultado1>resultado2){
+                document.getElementById('media').value = resultado1
+            }
+        }
     </script>
 </body>
 </html>

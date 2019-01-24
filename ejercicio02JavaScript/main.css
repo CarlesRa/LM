@@ -1,44 +1,115 @@
-.header{
+.container{
+    height: 700px;
+    width: 800px;
+    background-color: lightsteelblue;
+}
+#cajaLogo{
+    height: 30px;
+    margin-left: 50px;
+}
+#logoL{
+    height: 50px;
+    margin-right: 1000px;
+}
+#header{
     font-size: 100px;
     text-align: center;
+    height: 220px;
+}
+#logoLiga{
+    height: 50px;
 }
 .container2{
     display: flex;
+    justify-content: space-evenly;
+}
+#logosEquipos{
+    height: 20px;
+    width: 750px;
+    display:flex;
     justify-content: space-around;
 }
-.equipoL{
+#cajaValencia{
+    height: 80px;
+    width: 20px;
+    display: inline-block;
+}
+#logoValencia{
+    height: 50px;
+    margin-left: 28px;
+    border: 3px solid orangered;
+    border-radius: 50px;
+}
+#cajaMadrid{
+    height: 80px;
+    width: 20px;
+    display: inline-block;
+}
+#logoMadrid{
+    background-color: white;
+    height: 50px;
+    margin-left: -22px;
+    border: 3px solid orangered;
+    border-radius: 50px;
+}
+#equipoL{
     border: solid orangered;
+    border-radius: 10px;
     width: 180px;
     height: 200px;
     padding: 10px;
     margin-top: 20px;
+    margin-left: 55px;
 }
-.equipoR{
+#equipoR{
     border: solid orangered;
+    border-radius: 10px;
     width: 180px;
     height: 200px;
     padding: 10px;
     margin-top: 20px;
+    margin-left: 50px;
 }
-.texto{
+#texto{
     text-align: right;
 }
-.boton{
+#texto1{
+    text-align: right;
+}
+#texto2{
+    text-align: right;
+}
+#texto3{
+    text-align: right;
+}
+#texto4{
+    text-align: right;
+}
+#texto5{
+    text-align: right;
+}
+#boton{
+    display: flex;
+    justify-content: center;
+    margin-right: 12px; 
+    margin-top: 50px;
+}
+#textoBoton{
     display: inline-block;
     font-size: 20px;
     padding: 10px;
     border: 3px solid orangered;
     border-radius: 20px;
-    margin-left: 632px;
-    margin-top: 20px;
 }
-.resultado{
+a:hover{
+    background-color: white;
+}
+#resultado{
     display: inline-block;
     justify-content: center;
     border: 3px solid orangered;
     margin-top: 60px;
-    margin-left: 412px;
     padding: 20px;
     width: 475px;
-
+    margin-left: 130px;
 }
