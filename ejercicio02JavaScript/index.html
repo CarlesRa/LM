@@ -26,7 +26,7 @@
             </div>
             <div class="container2">
                 <div id="equipoL">
-                    soy el quipo izquierdo
+                    Valencia Basquet
                      <br><br><br>
                     <input id="texto1" type="number">
                     <br><br><br>
@@ -35,7 +35,7 @@
                     <input id="texto3" type="number">
                 </div>
                 <div id="equipoR">
-                    soy el equipo derecho 
+                    Real Madrid Baloncesto 
                     <br><br><br>
                     <input id="texto4" type="number">
                     <br><br><br>
@@ -78,8 +78,8 @@
             var puntos1R = document.getElementById("texto4").value;
             var puntos2R = document.getElementById("texto5").value;
             var puntos3R = document.getElementById("texto6").value;
-            var resultado1 = parseInt(puntos1L)+parseInt(puntos2L)+parseInt(puntos3L)/3;
-            var resultado2 = parseInt(puntos1R)+parseInt(puntos2R)+parseInt(puntos3R)/3;
+            var resultado1 = parseFloat(puntos1L)+parseFloat(puntos2L)+parseFloat(puntos3L)/3;
+            var resultado2 = parseFloat(puntos1R)+parseFloat(puntos2R)+parseFloat(puntos3R)/3;
             var resulFin1 = resultado1.toFixed(2);
             var resulFin2 = resultado2.toFixed(2);
             if (resultado1>resultado2){

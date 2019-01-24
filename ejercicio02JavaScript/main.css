@@ -37,7 +37,7 @@
 #logoValencia{
     height: 50px;
     margin-left: 28px;
-    border: 3px solid orangered;
+    border: 3px groove rgb(196, 156, 197);;
     border-radius: 50px;
 }
 #cajaMadrid{
@@ -49,26 +49,28 @@
     background-color: white;
     height: 50px;
     margin-left: -22px;
-    border: 3px solid orangered;
+    border: 3px groove rgb(196, 156, 197);;
     border-radius: 50px;
 }
 #equipoL{
-    border: solid orangered;
+    border: groove rgb(196, 156, 197);;
     border-radius: 10px;
     width: 180px;
     height: 200px;
     padding: 10px;
     margin-top: 20px;
     margin-left: 55px;
+    text-align: center;
 }
 #equipoR{
-    border: solid orangered;
+    border: groove rgb(196, 156, 197);;
     border-radius: 10px;
     width: 180px;
     height: 200px;
     padding: 10px;
     margin-top: 20px;
     margin-left: 50px;
+    text-align: center;
 }
 #texto6{
     text-align: right;
@@ -98,7 +100,7 @@
     display: inline-block;
     font-size: 20px;
     padding: 10px;
-    border: 3px solid orangered;
+    border: 3px groove rgb(196, 156, 197);;
     border-radius: 20px;
 }
 a:hover{
@@ -107,7 +109,8 @@ a:hover{
 #resultado{
     display: inline-block;
     justify-content: center;
-    border: 3px solid orangered;
+    border: 3px groove rgb(196, 156, 197);
+    border-radius: 10px;
     margin-top: 60px;
     padding: 20px;
     width: 475px;
@@ -118,6 +121,6 @@ a:hover{
 }
 #Ganador{
     color: green;
-    text-align: right;
+    text-align: center;
 }
 .blink {text-decoration: blink;}
