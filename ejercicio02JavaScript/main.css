@@ -22,12 +22,14 @@
 .container2{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 #logosEquipos{
     height: 20px;
     width: 750px;
     display:flex;
     justify-content: space-around;
+    /*flex-wrap: wrap;*/
 }
 #cajaValencia{
     height: 80px;
@@ -37,7 +39,7 @@
 #logoValencia{
     height: 50px;
     margin-left: 28px;
-    border: 3px groove rgb(196, 156, 197);;
+    border: 3px groove rgb(220, 189, 221);
     border-radius: 50px;
 }
 #cajaMadrid{
@@ -49,11 +51,11 @@
     background-color: white;
     height: 50px;
     margin-left: -22px;
-    border: 3px groove rgb(196, 156, 197);;
+    border: 3px groove rgb(196, 156, 197);
     border-radius: 50px;
 }
 #equipoL{
-    border: groove rgb(196, 156, 197);;
+    border: groove rgb(196, 156, 197);
     border-radius: 10px;
     width: 180px;
     height: 200px;
@@ -63,7 +65,7 @@
     text-align: center;
 }
 #equipoR{
-    border: groove rgb(196, 156, 197);;
+    border: groove rgb(196, 156, 197);
     border-radius: 10px;
     width: 180px;
     height: 200px;
@@ -100,7 +102,7 @@
     display: inline-block;
     font-size: 20px;
     padding: 10px;
-    border: 3px groove rgb(196, 156, 197);;
+    border: 3px groove rgb(196, 156, 197);
     border-radius: 20px;
 }
 a:hover{
@@ -109,7 +111,7 @@ a:hover{
 #resultado{
     display: inline-block;
     justify-content: center;
-    border: 3px groove rgb(196, 156, 197);
+    border: 3px groove rgb(196, 156, 197);    
     border-radius: 10px;
     margin-top: 60px;
     padding: 20px;
@@ -123,4 +125,3 @@ a:hover{
     color: green;
     text-align: center;
 }
-.blink {text-decoration: blink;}
