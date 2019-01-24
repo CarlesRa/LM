@@ -70,7 +70,7 @@
     margin-top: 20px;
     margin-left: 50px;
 }
-#texto{
+#texto6{
     text-align: right;
 }
 #texto1{
@@ -113,3 +113,11 @@ a:hover{
     width: 475px;
     margin-left: 130px;
 }
+#media{
+    text-align: right;
+}
+#Ganador{
+    color: green;
+    text-align: right;
+}
+.blink {text-decoration: blink;}

@@ -28,20 +28,20 @@
                 <div id="equipoL">
                     soy el quipo izquierdo
                      <br><br><br>
-                    <input id="texto" type="text" value="200" >
+                    <input id="texto1" type="number">
                     <br><br><br>
-                    <input id="texto1" type="text" value="98">
+                    <input id="texto2" type="number">
                     <br><br><br>
-                    <input id="texto2" type="text" value="89">
+                    <input id="texto3" type="number">
                 </div>
                 <div id="equipoR">
                     soy el equipo derecho 
                     <br><br><br>
-                    <input id="texto3" type="text" value="105" >
+                    <input id="texto4" type="number">
                     <br><br><br>
-                    <input id="texto4" type="text" value="100">
+                    <input id="texto5" type="number">
                     <br><br><br>
-                    <input id="texto5" type="text" value="90">
+                    <input id="texto6" type="number">
                 </div>
                 <div>
 
@@ -58,7 +58,7 @@
             </div>
             <div id="resultado">
                 Media
-                <input type="text" id="media">
+                <input type="number" id="media">
                 Ganador
                 <input type="text" id="Ganador">
             </div>
@@ -72,16 +72,23 @@
 
         function calcularGanador(){
             console.log("funcion correcta")
-            var puntos1L = document.getElementById("texto");
-            var puntos2L = document.getElementById("texto1");
-            var puntos3L = document.getElementById("texto2");
-            var puntos1R = document.getElementById("texto3");
-            var puntos2R = document.getElementById("texto4");
-            var puntos3R = document.getElementById("texto5");
-            var resultado1 = (puntos1L+puntos2L+puntos3L)/3;
-            var resultado2 = (puntos1R+puntos2R+puntos3R)/3;
+            var puntos1L = document.getElementById("texto1").value;
+            var puntos2L = document.getElementById("texto2").value;
+            var puntos3L = document.getElementById("texto3").value;
+            var puntos1R = document.getElementById("texto4").value;
+            var puntos2R = document.getElementById("texto5").value;
+            var puntos3R = document.getElementById("texto6").value;
+            var resultado1 = parseInt(puntos1L)+parseInt(puntos2L)+parseInt(puntos3L)/3;
+            var resultado2 = parseInt(puntos1R)+parseInt(puntos2R)+parseInt(puntos3R)/3;
+            var resulFin1 = resultado1.toFixed(2);
+            var resulFin2 = resultado2.toFixed(2);
             if (resultado1>resultado2){
-                document.getElementById('media').value = resultado1
+                document.getElementById('media').value = resulFin1;
+                document.getElementById("Ganador").value = "Valencia Basquet";
+            }
+            else{
+                document.getElementById('media').value = resulFin2;
+                document.getElementById("Ganador").value = "Real Madrid Baloncesto";
             }
         }
     </script>
