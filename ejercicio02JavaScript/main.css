@@ -78,9 +78,6 @@
     margin-left: 50px;
     text-align: center;
 }
-#texto6{
-    text-align: right;
-}
 #texto1{
     text-align: right;
 }
@@ -94,6 +91,9 @@
     text-align: right;
 }
 #texto5{
+    text-align: right;
+}
+#texto6{
     text-align: right;
 }
 #boton{
