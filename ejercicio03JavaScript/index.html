@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calcular propinas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+    </style>
+</head>
+<body class = "body">
+    <div class = "flex_container">
+        <div class="container">
+            <div class = "item" id="header">
+                CALCULADOR DE PROPINAS
+            </div>
+            <div class="item">
+                Precio comida: <input type="text" id="precio">
+            </div>
+            <div class="item">
+                <input type="button" id = "boton" value="Calcular">
+            </div>
+            
+            <div class="item">
+                Propina a Pagar: <input type="text" id="resultado">
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    <script>
+        console.log("hola");
+        var precio = document.getElementById("precio").value;
+        var propina;
+        document.getElementById("boton").addEventListener("click",calcularPropina);
+        function calcularPropina(){
+            console.log("funciona");
+            if (precio<50){
+                propina = 0.2*precio;
+            }
+            if(precio>=50 || precio<=200){
+                propina = 0.15*precio;
+            }
+            if(precio>200){
+                propina = 0.1*precio;
+            }
+            document.getElementById("resultado").value = propina;
+        }
+    </script>
+    
+</body>
+</html>
