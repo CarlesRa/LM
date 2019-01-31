@@ -27,6 +27,8 @@
                 Propina a Pagar: <input type="text" id="resultado">
             </div>
         </div>
+            
+    </div>
         
         <script>
             console.log("hola");
@@ -44,7 +46,8 @@
                 if(precio>200){
                     propina = 0.1*precio;
                 }
-                document.getElementById("resultado").value = propina;
+                var resFinal = propina.toFixed(2);
+                document.getElementById("resultado").value = resFinal;
             }
         </script>
         
