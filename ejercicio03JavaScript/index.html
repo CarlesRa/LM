@@ -28,28 +28,28 @@
             </div>
         </div>
         
-        
+        <script>
+            console.log("hola");
+            document.getElementById("boton").addEventListener("click",calcularPropina);
+            function calcularPropina(){
+                var precio = document.getElementById("precio").value;
+                var propina;
+                console.log("funciona");
+                if (precio<50){
+                    propina = 0.2*precio;
+                }
+                if(precio>=50 || precio<=200){
+                    propina = 0.15*precio;
+                }
+                if(precio>200){
+                    propina = 0.1*precio;
+                }
+                document.getElementById("resultado").value = propina;
+            }
+        </script>
         
     </div>
-    <script>
-        console.log("hola");
-        var precio = document.getElementById("precio").value;
-        var propina;
-        document.getElementById("boton").addEventListener("click",calcularPropina);
-        function calcularPropina(){
-            console.log("funciona");
-            if (precio<50){
-                propina = 0.2*precio;
-            }
-            if(precio>=50 || precio<=200){
-                propina = 0.15*precio;
-            }
-            if(precio>200){
-                propina = 0.1*precio;
-            }
-            document.getElementById("resultado").value = propina;
-        }
-    </script>
+    
     
 </body>
 </html>
