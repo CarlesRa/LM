@@ -27,12 +27,16 @@
 }
 #precio{
     width: 55px;
+    
 }
 #boton{
     font-size: 2em;
     border-radius: 20px;
     background-color: salmon;
-    text-shadow: 0em 0em 2px plum;
+    
+}
+#boton:hover{
+    text-shadow: 0em 0em 10px plum;
 }
 #resultado{
     width: 55px;
