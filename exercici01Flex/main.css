@@ -11,8 +11,6 @@
 }
 
 .flex_container{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding: 15px;
 }
@@ -28,7 +26,6 @@
     padding: 10px;
 }
 .flex_item2{
-    display: flex;
     border: 1px solid gray;
     border-radius: 10px;
     background-color: white;
@@ -36,11 +33,9 @@
     width: 235px;
 }
 #text{
-
     text-align: center;
 }
 #boton{
-    display: inline-flex;
     border-radius: 10px;
     background-color: white;
     padding: 10px;
