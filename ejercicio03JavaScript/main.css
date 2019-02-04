@@ -33,7 +33,7 @@
     font-size: 2em;
     border-radius: 20px;
     background-color: salmon;
-    
+    cursor: pointer;
 }
 #boton:hover{
     text-shadow: 0em 0em 10px plum;
