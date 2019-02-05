@@ -18,8 +18,10 @@
     border: 1px solid green;
 }
 .flexItem2{
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     border: 1px solid green;
 }
 #marca{
@@ -40,13 +42,19 @@
 #A{
     width: 200px;
     height: 600px;
+    align-content: space-around;
 }
 #S{
     width: 600px;
     text-align: justify;
 }
-li{
-    list-style: none;
+#AL{
+    padding: 50px;
+}
+img{
+    height:130px;
+    width: 150px;
+    border: 1px solid green;
 }
 
 
