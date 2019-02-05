@@ -1,0 +1,54 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.flexContainer2{
+    display: flex;
+    justify-content: space-between;
+}
+.flexItem{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid green;
+}
+.flexItem2{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid green;
+}
+#marca{
+
+}
+#nav{
+    display: inline-flex;
+    width: 350px;
+    justify-content: space-around;
+}
+#botonera{
+    cursor: pointer;
+}
+#botonera:hover{
+    background-color: rgb(216, 209, 209);
+    border-radius: 5px;
+}
+#A{
+    width: 200px;
+    height: 600px;
+}
+#S{
+    width: 600px;
+    text-align: justify;
+}
+li{
+    list-style: none;
+}
+
+
+
+
