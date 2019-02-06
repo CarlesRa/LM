@@ -78,9 +78,11 @@
         .pie{
         }
 @media all and (max-width:800px){
+    .papaFlex{
+        flex-direction: column;
+    }
     .menu{
         flex-direction: column;
-        height: auto;
     }
     
 }
