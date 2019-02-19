@@ -34,6 +34,7 @@ body{
             .casillas{
                 display: flex;
                 justify-content: center;
+                padding: 0px;
             }
                 #texto{
                     flex: 8 auto;
@@ -58,3 +59,21 @@ body{
                 cursor: pointer;
             }
 
+@media (max-width:460px){
+    .casillas{
+        flex-flow: column wrap;
+        
+    }
+    #texto{
+        flex: 1 auto;
+    }
+    #but{
+        float: 1 auto;
+    }
+}
+@media (max-width: 340px){
+    .papiFlex{
+        display: inline-block;
+        background-color: white;
+    }
+}
