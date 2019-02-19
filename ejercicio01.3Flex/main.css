@@ -1,5 +1,5 @@
 *{
-    margin: 5px;
+    margin: 0px;
     padding: 10px;
     text-decoration: blanchedalmond;
     font-family: -apple-system, BlinkMacSystemFont,
@@ -10,7 +10,7 @@ body{
     background-color: #66CCFF;
 }
     .papiFlex{
-        border: 1px solid  #888888;
+        border: 1px outset  #888888;
         border-radius: 10px;
         box-shadow: 5px 5px #888888;
         background-color: white;
@@ -24,4 +24,37 @@ body{
             .titulo{
                 text-align: center;
             }
-        
+            .texto1{
+                border-bottom: 1px solid lightgrey;
+            }
+        .datos{
+            display: flex;
+            flex-flow: column nowrap;
+        }
+            .casillas{
+                display: flex;
+                justify-content: center;
+            }
+                #texto{
+                    flex: 8 auto;
+                }
+                #but{
+                    flex: 1 auto;
+                    background-color: lightgray;
+                }
+                #but:hover{
+                    cursor: pointer;
+                }
+        .return{
+            text-align: center;
+        }
+            .buttonReturn{
+                display: inline-block;
+                background-color: #66CCFF;
+                border-radius: 10px;
+                font-size: 1.5em;
+            }
+            .buttonReturn:hover{
+                cursor: pointer;
+            }
+
