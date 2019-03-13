@@ -1,0 +1,23 @@
+{
+  "name": "guillaume_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/www.github.com/carlesra.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/www.github.com/carlesra/issues"
+  },
+  "homepage": "https://github.com/www.github.com/carlesra#readme",
+  "dependencies": {
+    "electron": "^4.0.8",
+    "electron-reload": "^1.4.0"
+  }
+}
