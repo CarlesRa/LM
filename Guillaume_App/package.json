@@ -1,0 +1,25 @@
+{
+  "name": "guillaume_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/www.github.com/carlesra.git"
+  },
+  "author": "Carles Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/www.github.com/carlesra/issues"
+  },
+  "homepage": "https://github.com/www.github.com/carlesra#readme",
+  "dependencies": {
+    "electron-reload": "^1.4.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2"
+  }
+}
