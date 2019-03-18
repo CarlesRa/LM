@@ -4,7 +4,7 @@
 a{
     text-decoration: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px;
@@ -17,6 +17,9 @@ h1{
     color: white;
 }
 body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
     background-color: peru;
     background: url(Images/fondo.jpg);
     background-position: center;
@@ -34,6 +37,7 @@ body{
         justify-content: space-between;
         align-items: center;
         background-color: black;
+        opacity: 0.7;
     }
     .header a i{
         padding: 10px;
@@ -59,6 +63,7 @@ body{
                 background-color: black;
                 border: 2px solid white;
                 border-radius: 30px;
+                opacity: 0.7;
             }
             .botones a i{
                 padding: 10px;
@@ -75,6 +80,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        opacity: 0.7;
     }
         .autor a{
             background-color: black;
